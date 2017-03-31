@@ -1,0 +1,52 @@
+body {
+	background: black;
+	color: #fff;
+	margin: 0;
+    padding: 10px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #fff;
+}
+
+header,
+.left,
+.right{
+	position: absolute;
+	border: 1px solid #fff;
+}
+
+
+header{
+	top: 10px;
+	left: 10px;
+	right: 10px;
+	height: 150px;
+}
+
+.left{
+	top:170px;
+	left: 10px;
+	bottom: 10px;
+	width: 200px;
+}
+
+.left ul{
+	list-style: none;
+}
+
+.left ul li{
+	cursor: pointer;
+}
+
+.left ul .selected{
+	color: green;
+}
+
+.right{
+	top: 170px;
+	left: 220px;
+	right: 10px;
+	bottom: 10px;
+}
